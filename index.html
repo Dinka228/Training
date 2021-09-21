@@ -6,37 +6,144 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div></div>
-<div class="body">
+<div>
+    <button class="btn" id="slar">Система рівнянь</button>
+    <button class="btn" id="visitor">Обчислення визначника</button>
+    <button class="btn" id="wrapp">Обчислення оберненої матриці</button>
+</div>
+<div class="window1" id="window1">
+    <div class="form-1" id="form1">
+    <span>Система рівнянь</span>
     <div class="input-1">
-        <input class="input" id="a11" type="text" value="0">
-        <input class="input" id="a12" type="text" value="1">
-        <input class="input" id="a13" type="text" value="1">
-        <input class="input" id="a14" type="text" value="1">
+        <input class="input" id="a11" type="text" value="2"><span>x1 + </span>
+        <input class="input" id="a12" type="text" value="-2"><span>x2 + </span>
+        <input class="input" id="a13" type="text" value="0"><span>x3 + </span>
+        <input class="input" id="a14" type="text" value="1"><span>x4 =</span>
+        <input class="input" id="a15" type="text" value="-3">
     </div>
     <div class="input-2">
-        <input class="input" id="a21" type="text" value="1">
-        <input class="input" id="a22" type="text" value="0">
-        <input class="input" id="a23" type="text" value="1">
-        <input class="input" id="a24" type="text" value="1">
+        <input class="input" id="a21" type="text" value="2"><span>x1 +</span>
+        <input class="input" id="a22" type="text" value="3"><span>x2 +</span>
+        <input class="input" id="a23" type="text" value="1"><span>x3 +</span>
+        <input class="input" id="a24" type="text" value="-3"><span>x4 =</span>
+        <input class="input" id="a25" type="text" value="-6">
     </div>
     <div class="input-3">
-        <input class="input" id="a31" type="text" value="1">
-        <input class="input" id="a32" type="text" value="1">
-        <input class="input" id="a33" type="text" value="0">
-        <input class="input" id="a34" type="text" value="1">
+        <input class="input" id="a31" type="text" value="3"><span>x1 +</span>
+        <input class="input" id="a32" type="text" value="4"><span>x2 +</span>
+        <input class="input" id="a33" type="text" value="-1"><span>x3 +</span>
+        <input class="input" id="a34" type="text" value="2"><span>x4 =</span>
+        <input class="input" id="a35" type="text" value="0">
     </div>
     <div class="input-3">
-        <input class="input" id="a41" type="text" value="1">
-        <input class="input" id="a42" type="text" value="1">
-        <input class="input" id="a43" type="text" value="1">
-        <input class="input" id="a44" type="text" value="0">
+        <input class="input" id="a41" type="text" value="1"><span>x1 +</span>
+        <input class="input" id="a42" type="text" value="3"><span>x2 +</span>
+        <input class="input" id="a43" type="text" value="1"><span>x3 +</span>
+        <input class="input" id="a44" type="text" value="1"><span>x4 =</span>
+        <input class="input" id="a45" type="text" value="2">
     </div>
     <div class="input-4">
-    <input id="submitButton" class="submit" type="submit" value="Розрахувати">
+        <input id="submitButton1" class="submit" type="submit" value="Розрахувати">
     </div>
 </div>
+</div>
+<div class="window1" id="window2">
+<div class="form-2" id="form2">
+    <span>Обчислення визначника</span>
+    <div class="input-1">
+        <input class="input" id="b11" type="text" value="0">
+        <input class="input" id="b12" type="text" value="1">
+        <input class="input" id="b13" type="text" value="1">
+        <input class="input" id="b14" type="text" value="1">
+    </div>
+    <div class="input-2">
+        <input class="input" id="b21" type="text" value="1">
+        <input class="input" id="b22" type="text" value="0">
+        <input class="input" id="b23" type="text" value="1">
+        <input class="input" id="b24" type="text" value="1">
+    </div>
+    <div class="input-3">
+        <input class="input" id="b31" type="text" value="1">
+        <input class="input" id="b32" type="text" value="1">
+        <input class="input" id="b33" type="text" value="0">
+        <input class="input" id="b34" type="text" value="1">
+    </div>
+    <div class="input-3">
+        <input class="input" id="b41" type="text" value="1">
+        <input class="input" id="b42" type="text" value="1">
+        <input class="input" id="b43" type="text" value="1">
+        <input class="input" id="b44" type="text" value="0">
+    </div>
+    <div class="input-4">
+    <input id="submitButton2" class="submit" type="submit" value="Розрахувати">
+    </div>
+</div>
+</div>
+<div class="window1" id="window3">
+<div class="form-3" id="form3">
+    <span>Обчислення оберненої матриці</span>
+    <div class="input-1">
+        <input class="input" id="c11" type="text" value="1">
+        <input class="input" id="c12" type="text" value="1">
+        <input class="input" id="c13" type="text" value="1">
+        <input class="input" id="c14" type="text" value="1">
+    </div>
+    <div class="input-2">
+        <input class="input" id="c21" type="text" value="1">
+        <input class="input" id="c22" type="text" value="1">
+        <input class="input" id="c23" type="text" value="-1">
+        <input class="input" id="c24" type="text" value="-1">
+    </div>
+    <div class="input-3">
+        <input class="input" id="c31" type="text" value="1">
+        <input class="input" id="c32" type="text" value="-1">
+        <input class="input" id="c33" type="text" value="1">
+        <input class="input" id="c34" type="text" value="-1">
+    </div>
+    <div class="input-3">
+        <input class="input" id="c41" type="text" value="1">
+        <input class="input" id="c42" type="text" value="-1">
+        <input class="input" id="c43" type="text" value="-1">
+        <input class="input" id="c44" type="text" value="0">
+    </div>
+    <div class="input-4">
+        <input id="submitButton3" class="submit" type="submit" value="Розрахувати">
+    </div>
+    <div class="window4">
+        <div class="form-3" id="form4">
+        <span>Обчислення оберненої матриці</span>
+        <div class="input-1">
+            <input class="input" id="c15" type="text" value="1">
+            <input class="input" id="c16" type="text" value="0">
+            <input class="input" id="c17" type="text" value="0">
+            <input class="input" id="c18" type="text" value="0">
+        </div>
+        <div class="input-2">
+            <input class="input" id="c25" type="text" value="0">
+            <input class="input" id="c26" type="text" value="1">
+            <input class="input" id="c27" type="text" value="0">
+            <input class="input" id="c28" type="text" value="0">
+        </div>
+        <div class="input-3">
+            <input class="input" id="c35" type="text" value="0">
+            <input class="input" id="c36" type="text" value="0">
+            <input class="input" id="c37" type="text" value="1">
+            <input class="input" id="c38" type="text" value="0">
+        </div>
+        <div class="input-3">
+            <input class="input" id="c45" type="text" value="0">
+            <input class="input" id="c46" type="text" value="0">
+            <input class="input" id="c47" type="text" value="0">
+            <input class="input" id="c48" type="text" value="1">
+        </div>
+    </div>
+    </div>
 
+</div>
+</div>
+<div id="answer">
+
+</div>
 <script src="index.js"></script>
 </body >
 </html>

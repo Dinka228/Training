@@ -1,8 +1,14 @@
 .input{
-width:15px
+width:40px
 }
 
-.body{
+.form-2 .form-1 .form-3{
     display: flex;
     flex-direction: column;
+}
+.window1{
+    display: none;
+}
+.window4{
+    display: none;
 }
