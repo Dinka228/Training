@@ -469,22 +469,19 @@ function mathSimple(){
         }
         count++
     }
-    if(+count1 === 2){
+
         if(count<2){
-            answer.innerHTML = `x1 = ${mass4[k1][m-1]} x2 = 0 Fx = ${mass4[+count2 + 1][m-1]}`
+            answer.innerHTML = `x1 = ${mass4[k1][m-1]} x2 = 0 Fx = ${mass4[n-1][m-1]}`
         }
-        if(count === 2){
-            answer.innerHTML = `x1 = ${mass4[k1][m-1]} x2 = ${mass4[k2][m-1]} Fx = ${mass4[+count2 + 1][m-1]}`
+        else if(count === 2){
+            answer.innerHTML = `x1 = ${mass4[k1][m-1]} x2 = ${mass4[k2][m-1]} Fx = ${mass4[n-1][+m - 1]}`
         }
-    }
-    else if(+count1 === 3){
-        if(count<3){
-            answer.innerHTML = `x1 = ${mass4[k1][m-1]} x2 = 0 x3 = 0 Fx = ${mass4[+count2 + 1][m-1]}`
+        else if(count<3){
+            answer.innerHTML = `x1 = ${mass4[k1][m-1]} x2 = 0 x3 = 0 Fx = ${mass4[n-1][m-1]}`
         }
-        if(count === 3){
-            answer.innerHTML = `x1 = ${mass4[k1][m-1]} x2 = ${mass4[k2][m-1]} x3 = ${mass4[k3][m-1]} Fx = ${mass4[+count2 + 1][m-1]}`
+        else if(count === 3){
+            answer.innerHTML = `x1 = ${mass4[k1][m-1]} x2 = ${mass4[k2][m-1]} x3 = ${mass4[k3][m-1]} Fx = ${mass4[n-1][m-1]}`
         }
-    }
 
 
 }
