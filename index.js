@@ -72,9 +72,17 @@ function showForm5(){
             divv.appendChild(input)
         }
         for(let y=1;y<+count2.value+1;y++){
+
             let input3 = document.createElement('input')
             input3.id = `d${i}${+count1.value+y}`
             input3.className = `input`
+            input3.style.display = 'none'
+            if(i===y){
+                input3.value = 1
+            }
+            else{
+                input3.value = 0
+            }
             divv.appendChild(input3)
         }
 
